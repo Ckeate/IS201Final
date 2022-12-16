@@ -1,0 +1,116 @@
+#banner {
+    color:#5490bc;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 3em;
+    padding-left: 12px;
+}
+
+.subscript{
+color: #5490bc;
+font-family:'Times New Roman', Times, serif;
+font-size: 2em;
+padding-left: 15px;
+}
+
+header {
+    display: none;
+}
+
+img {
+    width: 500px;
+}
+
+.headshot{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* From W3Schools Fixed Full-height Side Nav*/
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Noto Serif', serif;
+    font-size: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 380px;
+    background-color: #313131;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav li a.active {
+    background-color: #536fb0;
+    color: white;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.content {
+    margin-left:380px;
+    background-color: #373737;
+}
+
+a {
+    text-decoration:solid;
+    text-decoration-line: underline;
+    color:#ffffff;
+}
+
+.odd {
+    background-color: #85d1ec;
+    
+}
+
+.even {
+    background-color: rgb(106, 106, 106);
+    color: rgb(245, 245, 245);
+}
+
+.card {
+    margin-left: 25px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
+article ul li {
+    list-style-image: url('../gatoricon-xs.png');
+}
+
+h1{
+    display: block;
+    margin-left: Auto;
+    margin-right:auto;
+    width: 95%;
+    font-size: 3.25em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+
+i{
+    font-size: 1.25em;
+}
+h2{
+    font-size: 1.5em;
+}
